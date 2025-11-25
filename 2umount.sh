@@ -6,4 +6,5 @@ if [ "$#" -ne 1 ]; then
 	exit
 fi
 
+sync
 sudo umount $1
